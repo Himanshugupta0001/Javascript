@@ -49,10 +49,10 @@ const chai = () => {
 
 
 // const addTwo = (num1, num2) =>  num1 + num2
-// console.log(addTwo(3, 4)); //ye nhi 7 de degha
+// console.log(addTwo(3, 4)); //ye bhi 7 de degha
 
 // const addTwo = (num1, num2) =>  (num1 + num2)
-// console.log(addTwo(3, 4)); //ye nhi 7 de degha
+// console.log(addTwo(3, 4)); //ye bhi 7 de degha
 
 const addTwo = (num1, num2) =>  ({username: "himanshu"})
 console.log(addTwo(3, 4));  //ye {username: "himanshu"} degha
