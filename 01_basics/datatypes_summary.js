@@ -33,5 +33,34 @@ const myFunction = function(){
 
 console.log(typeof myFunction); //function  
 console.log(typeof heros); //object  
-console.log(typeof anotherId); //symbol  
+console.log(typeof anotherId); //symbol
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//Stack(Primitive) ,  Heap (Non-Primitive)
+
+let myYoutubeName = "himanshudotcom"
+
+let anotherName = myYoutubeName
+anotherName = "chai"
+
+console.log(myYoutubeName); // himanshudotcom
+console.log(anotherName);   //chai
+
+let userOne = {
+    email : "user@goggle.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "himanshu@google.com"
+
+console.log(userOne.email);  //himanshu@google.com
+console.log(userTwo.email);  //himanshu@google.com
+
+
+
 
