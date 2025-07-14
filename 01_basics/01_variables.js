@@ -2,9 +2,9 @@ const accountId = 114455
 let accountEmail = "himanshu@google.com"
 var accountPassword = "12345"
 accountCity = "Jaipur"
-let accountState;
+let accountState;  // iski value undefined degha kyuki humne is value di hi nhi
 
-// accountId = 6 // not allowed
+// accountId = 6 // not allowed  //const change karne nhi degha
 accountEmail = "hc@hw.com"
 accountPassword = "365466"
 accountCity = "delhi"
