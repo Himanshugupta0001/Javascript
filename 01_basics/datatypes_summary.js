@@ -33,13 +33,13 @@ const myFunction = function(){
 
 console.log(typeof myFunction); //function  
 console.log(typeof heros); //object  
-console.log(typeof anotherId); //symbol
+console.log(typeof anotherId); //symbol 
 
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-//Stack(Primitive) ,  Heap (Non-Primitive)
+//Stack(Primitive) isme copy milta hai ,  Heap (Non-Primitive) isme original milta hai
 
 let myYoutubeName = "himanshudotcom"
 
